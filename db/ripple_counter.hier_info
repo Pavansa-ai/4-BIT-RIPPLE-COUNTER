@@ -1,0 +1,12 @@
+|ripple_counter
+clk => q_reg[0].CLK
+reset => q_reg[3].ACLR
+reset => q_reg[2].ACLR
+reset => q_reg[1].ACLR
+reset => q_reg[0].ACLR
+q[0] <= q_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
